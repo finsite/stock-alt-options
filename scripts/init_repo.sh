@@ -3,10 +3,11 @@ set -euo pipefail
 
 REPO_NAME=$(basename "$PWD")
 TODAY=$(date +%F)
-VERSION="0.1.0"
+VERSION=$(git describe --tags --abbrev=0 2>/dev/null || echo "0.1.0")
 
 echo "🔧 Initializing repository: $REPO_NAME"
 echo "📅 Date: $TODAY"
+echo "📌 Version: $VERSION"
 
 # Update pyproject.toml — [project] only
 echo "📝 Updating pyproject.toml..."
@@ -75,3 +76,4 @@ echo "👉 Next steps:"
 echo "- [ ] Review README.md and mkdocs.yml manually"
 echo "- [ ] Run: pre-commit install"
 echo "- [ ] Run: mkdocs gh-deploy --clean --force (if docs ready)"
+echo "- [ ] Run: pre-commit run --all-files"

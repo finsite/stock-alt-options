@@ -211,7 +211,9 @@ def main() -> None:
     if not skip_validate:
         validate_files(app_name)
 
-    print("\n✅ All files generated." if skip_validate else "\n✅ All files generated and validated.")
+    print(
+        "\n✅ All files generated." if skip_validate else "\n✅ All files generated and validated."
+    )
     print("📦 Structure:")
     print(" - charts/")
     print(" - k8s/base/")
