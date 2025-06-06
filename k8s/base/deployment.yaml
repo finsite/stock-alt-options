@@ -1,0 +1,22 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stock-alt-options
+  labels:
+    app: stock-alt-options
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: stock-alt-options
+  template:
+    metadata:
+      labels:
+        app: stock-alt-options
+    spec:
+      containers:
+      - name: stock-alt-options
+        image: stock-alt-options:latest
+        ports:
+        - containerPort: 8080
