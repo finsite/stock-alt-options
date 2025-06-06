@@ -68,7 +68,7 @@ exclude = '''
 
 [tool.ruff]
 line-length = 100
-target-version = "py311"
+target-version = "0.1.0"
 exclude = ["tests", "build", "dist", ".venv", ".eggs"]
 
 [tool.ruff.lint]
@@ -79,7 +79,7 @@ ignore = ["D203", "D211", "D213", "D401", "D205"]
 profile = "black"
 
 [tool.mypy]
-python_version = "3.11"
+python_version = "0.1.0"
 ignore_missing_imports = true
 strict = true
 pretty = true
@@ -90,7 +90,7 @@ explicit_package_bases = true
 exclude = ["^tests/"]
 
 [tool.pytest.ini_options]
-minversion = "7.0"
+minversion = "0.1.0"
 addopts = "--strict-markers --tb=short -q"
 testpaths = ["tests"]
 
@@ -108,12 +108,10 @@ skip_covered = true
 
 [tool.commitizen]
 name = "cz_conventional_commits"
-version = "v0.0.0"
+version = "0.1.0"
 tag_format = "v$version"
 update_changelog_on_bump = true
 changelog_file = "CHANGELOG.md"
-bump_message = "chore(release): v$current_version → v$new_version"
-major_version_zero = true
 version_files = [
   "src/app/__init__.py"
 ]

@@ -1,8 +1,13 @@
-# Changelog
+## Unreleased
 
-## [v0.0.0] - 2025-06-06
+### Feat
 
-### Added
+- **sync**: add full sync_if_needed.py script with logging and Makefile support
 
-- Initial project structure cloned from `template_python`
-- Custom configuration and module setup for `stock-alt-options`
+### Fix
+
+- **deps**: recompile requirements to resolve dependency conflicts
+- **files**: Address workflows timing out issues
+- **files**: Verify functionality
+
+## v0.0.0 (2025-06-04)

@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 -*-
 
 """Ensure version consistency across pyproject.toml, __init__.py, and CHANGELOG.md."""
 

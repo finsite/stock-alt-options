@@ -16,7 +16,7 @@ spec:
         app: stock-alt-options
     spec:
       containers:
-      - name: stock-alt-options
-        image: stock-alt-options:latest
-        ports:
-        - containerPort: 8080
+        - name: stock-alt-options
+          image: stock-alt-options:latest
+          ports:
+            - containerPort: 8080
