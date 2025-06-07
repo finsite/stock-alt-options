@@ -1,5 +1,7 @@
 ## Unreleased
 
+## v0.1.0 (2025-06-06)
+
 ### Feat
 
 - **sync**: add full sync_if_needed.py script with logging and Makefile support
