@@ -68,7 +68,7 @@ exclude = '''
 
 [tool.ruff]
 line-length = 100
-target-version = "0.1.0"
+target-version = "py311"
 exclude = ["tests", "build", "dist", ".venv", ".eggs"]
 
 [tool.ruff.lint]
