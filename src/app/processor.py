@@ -16,6 +16,7 @@ def analyze_options_contract(record: dict[str, Any]) -> dict[str, Any]:
 
     Returns:
         dict: The enriched and validated record with computed metrics or flags.
+
     """
     required_keys = ["symbol", "expiry", "strike", "type", "implied_volatility"]
     validate_dict(record, required_keys)
@@ -36,7 +37,9 @@ def analyze_options_contract(record: dict[str, Any]) -> dict[str, Any]:
 
         logger.debug("✅ Processed options contract for %s: risk=%s", symbol, risk_flag)
     except Exception as e:
-        logger.exception("❌ Error analyzing options data for symbol %s: %s", record.get("symbol"), e)
+        logger.exception(
+            "❌ Error analyzing options data for symbol %s: %s", record.get("symbol"), e
+        )
         record["analysis"] = {"error": str(e), "status": "failed"}
 
     return record
