@@ -12,3 +12,7 @@ boto3>=1.28.0,<2.0.0  # If using AWS SQS
 loguru>=0.7.0  # Enhanced logging
 python-dotenv>=1.0.0  # Environment variable management
 prometheus_client>=0.17.1
+
+# Security: Fix pip-audit vulnerabilities
+requests>=2.32.4
+urllib3>=2.5.0
