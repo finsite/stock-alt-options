@@ -1,3 +1,9 @@
+## v0.4.1 (2025-07-26)
+
+### Fix
+
+- remediate vulnerabilities and sync new shared config utlities
+
 ## v0.4.0 (2025-07-01)
 
 ### Feat
