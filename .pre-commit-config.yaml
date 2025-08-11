@@ -91,13 +91,13 @@ repos:
         args: [-r, src, tests]
         pass_filenames: false
         language: python
-  - repo: https://github.com/returntocorp/semgrep
-    rev: v1.66.0
-    hooks:
-      - id: semgrep
-        language: system  # 👈 forces Semgrep to use your system Python install
-        args: [--config=p/security-audit]
-        pass_filenames: false
+  # - repo: https://github.com/returntocorp/semgrep
+  #   rev: v1.66.0
+  #   hooks:
+  #     - id: semgrep
+  #       language: system  # 👈 forces Semgrep to use your system Python install - this breaks commitzen
+  #       args: [--config=p/security-audit]
+  #       pass_filenames: false
   - repo: local
     hooks:
       - id: pip-audit
@@ -185,6 +185,7 @@ repos:
         args:
           - --upgrade
           - --strip-extras
+          - --generate-hashes
           - --output-file=requirements.txt
           - requirements.in
         files: ^requirements\.in$
@@ -195,6 +196,7 @@ repos:
         args:
           - --upgrade
           - --strip-extras
+          - --generate-hashes
           - --output-file=requirements-dev.txt
           - requirements-dev.in
         files: ^requirements-dev\.in$

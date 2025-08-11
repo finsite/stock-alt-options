@@ -6,7 +6,7 @@ with retry logic, structured logging, redaction, and Prometheus metrics.
 
 import json
 import time
-from typing import Any, Optional
+from typing import Any
 
 import boto3
 import pika

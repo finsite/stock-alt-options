@@ -4,82 +4,50 @@
 #
 #    pip-compile requirements.in
 #
-boto3==1.39.14
+boto3==1.40.6
     # via -r requirements.in
-botocore==1.39.14
+botocore==1.40.6
     # via
+    #   -r requirements.in
     #   boto3
     #   s3transfer
-certifi==2025.7.14
+certifi==2025.8.3
     # via requests
-charset-normalizer==3.4.2
+charset-normalizer==3.4.3
     # via requests
-colorama==0.4.6
-    # via loguru
-contourpy==1.3.3
-    # via matplotlib
-cycler==0.12.1
-    # via matplotlib
-fonttools==4.59.0
-    # via matplotlib
+greenlet==3.2.4
+    # via sqlalchemy
+hvac==2.3.0
+    # via -r requirements.in
 idna==3.10
     # via requests
 jmespath==1.0.1
     # via
     #   boto3
     #   botocore
-kiwisolver==1.4.8
-    # via matplotlib
-loguru==0.7.3
-    # via -r requirements.in
-matplotlib==3.10.3
-    # via -r requirements.in
-numpy==1.26.4
-    # via
-    #   -r requirements.in
-    #   contourpy
-    #   matplotlib
-    #   pandas
-    #   scipy
-packaging==25.0
-    # via matplotlib
-pandas==2.2.3
-    # via -r requirements.in
 pika==1.3.2
     # via -r requirements.in
-pillow==11.3.0
-    # via
-    #   -r requirements.in
-    #   matplotlib
 prometheus-client==0.22.1
     # via -r requirements.in
-pyparsing==3.2.3
-    # via matplotlib
 python-dateutil==2.9.0.post0
-    # via
-    #   botocore
-    #   matplotlib
-    #   pandas
-python-dotenv==1.1.1
+    # via botocore
+python-json-logger==3.3.0
     # via -r requirements.in
-pytz==2025.2
-    # via pandas
 requests==2.32.4
-    # via -r requirements.in
-s3transfer==0.13.1
-    # via boto3
-scipy==1.16.0
-    # via -r requirements.in
-six==1.17.0
-    # via python-dateutil
-tenacity==8.5.0
-    # via -r requirements.in
-tzdata==2025.2
-    # via pandas
-urllib3==2.5.0
     # via
     #   -r requirements.in
+    #   hvac
+s3transfer==0.13.1
+    # via boto3
+six==1.17.0
+    # via python-dateutil
+sqlalchemy==2.0.42
+    # via -r requirements.in
+tenacity==9.1.2
+    # via -r requirements.in
+typing-extensions==4.14.1
+    # via sqlalchemy
+urllib3==2.5.0
+    # via
     #   botocore
     #   requests
-win32-setctime==1.2.0
-    # via loguru

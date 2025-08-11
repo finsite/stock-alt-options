@@ -188,3 +188,9 @@ coverage/
 # System-specific
 .DS_Store
 Thumbs.db
+
+#vulnerabiltiy reports
+vulnerability_report.json
+
+#pytest logs
+pytest.log

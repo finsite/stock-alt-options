@@ -5,294 +5,535 @@
 #    pip-compile requirements-dev.in
 #
 annotated-types==0.7.0
-    # via pydantic
-anyio==4.9.0
-    # via httpx
+    # via
+    #   -r requirements-dev.in
+    #   pydantic
 argcomplete==3.6.2
-    # via commitizen
+    # via
+    #   -r requirements-dev.in
+    #   commitizen
+arrow==1.3.0
+    # via
+    #   -r requirements-dev.in
+    #   isoduration
 astroid==3.3.11
-    # via pylint
-babel==2.17.0
-    # via mkdocs-material
-backrefs==5.9
-    # via mkdocs-material
-bandit==1.8.3
+    # via
+    #   -r requirements-dev.in
+    #   pylint
+asttokens==3.0.0
+    # via
+    #   -r requirements-dev.in
+    #   stack-data
+attrs==25.3.0
+    # via
+    #   -r requirements-dev.in
+    #   glom
+    #   jsonschema
+    #   referencing
+backcall==0.2.0
+    # via
+    #   -r requirements-dev.in
+    #   ipython
+bandit==1.8.6
     # via -r requirements-dev.in
+beautifulsoup4==4.13.4
+    # via
+    #   -r requirements-dev.in
+    #   nbconvert
 black==25.1.0
     # via -r requirements-dev.in
-boto3==1.39.14
-    # via -r D:\git\stock-alt-options\requirements.in
-botocore==1.39.14
+bleach[css]==6.2.0
     # via
+    #   -r requirements-dev.in
+    #   nbconvert
+boltons==21.0.0
+    # via
+    #   -r requirements-dev.in
+    #   face
+    #   glom
+boolean-py==5.0
+    # via
+    #   -r requirements-dev.in
+    #   license-expression
+boto3==1.40.6
+    # via -r requirements-dev.in
+botocore==1.40.6
+    # via
+    #   -r requirements-dev.in
     #   boto3
     #   s3transfer
 bracex==2.6
-    # via wcmatch
-build==1.2.2.post1
-    # via -r requirements-dev.in
-bump-my-version==1.1.2
-    # via -r requirements-dev.in
-certifi==2025.7.14
     # via
-    #   httpcore
-    #   httpx
+    #   -r requirements-dev.in
+    #   wcmatch
+build==1.3.0
+    # via
+    #   -r requirements-dev.in
+    #   pip-tools
+cachecontrol[filecache]==0.14.3
+    # via
+    #   -r requirements-dev.in
+    #   pip-audit
+certifi==2025.8.3
+    # via
+    #   -r requirements-dev.in
     #   requests
 cfgv==3.4.0
-    # via pre-commit
-charset-normalizer==3.4.2
     # via
+    #   -r requirements-dev.in
+    #   pre-commit
+chardet==5.2.0
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-bom
+charset-normalizer==3.4.3
+    # via
+    #   -r requirements-dev.in
     #   commitizen
     #   requests
-click==8.2.1
+click==8.1.8
     # via
+    #   -r requirements-dev.in
     #   black
-    #   bump-my-version
+    #   click-option-group
+    #   deptry
+    #   maison
     #   mkdocs
-    #   rich-click
+    #   pip-tools
+    #   yamlfix
+click-option-group==0.5.7
+    # via -r requirements-dev.in
 colorama==0.4.6
     # via
+    #   -r requirements-dev.in
     #   bandit
     #   build
     #   click
     #   commitizen
-    #   loguru
+    #   deptry
+    #   ipython
     #   mkdocs
-    #   mkdocs-material
     #   pylint
     #   pytest
-    #   radon
 commitizen==4.8.3
     # via -r requirements-dev.in
-contourpy==1.3.3
-    # via matplotlib
-coverage[toml]==7.10.0
-    # via pytest-cov
-cycler==0.12.1
-    # via matplotlib
-decli==0.6.3
-    # via commitizen
-dill==0.4.0
-    # via pylint
-distlib==0.4.0
-    # via virtualenv
-docutils==0.21.2
-    # via readme-renderer
-filelock==3.18.0
-    # via virtualenv
-flake8==7.2.0
+coverage[toml]==7.10.2
     # via
     #   -r requirements-dev.in
-    #   flake8-docstrings
-flake8-docstrings==1.7.0
+    #   pytest-cov
+cyclonedx-bom==7.0.0
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-py
+cyclonedx-py==1.0.1
     # via -r requirements-dev.in
-fonttools==4.59.0
-    # via matplotlib
+cyclonedx-python-lib[validation]==9.1.0
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-bom
+    #   pip-audit
+decli==0.6.3
+    # via
+    #   -r requirements-dev.in
+    #   commitizen
+decorator==5.2.1
+    # via
+    #   -r requirements-dev.in
+    #   ipython
+defusedxml==0.7.1
+    # via
+    #   -r requirements-dev.in
+    #   nbconvert
+    #   py-serializable
+deprecated==1.2.18
+    # via -r requirements-dev.in
+deptry==0.23.1
+    # via -r requirements-dev.in
+dill==0.4.0
+    # via
+    #   -r requirements-dev.in
+    #   pylint
+distlib==0.4.0
+    # via
+    #   -r requirements-dev.in
+    #   virtualenv
+distro==1.9.0
+    # via
+    #   -r requirements-dev.in
+    #   ruyaml
+docopt==0.6.2
+    # via
+    #   -r requirements-dev.in
+    #   pipreqs
+exceptiongroup==1.2.2
+    # via -r requirements-dev.in
+executing==2.2.0
+    # via
+    #   -r requirements-dev.in
+    #   stack-data
+face==24.0.0
+    # via
+    #   -r requirements-dev.in
+    #   glom
+fastjsonschema==2.21.1
+    # via
+    #   -r requirements-dev.in
+    #   nbformat
+filelock==3.18.0
+    # via
+    #   -r requirements-dev.in
+    #   cachecontrol
+    #   virtualenv
+flake8==7.3.0
+    # via -r requirements-dev.in
+fqdn==1.5.1
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
 ghp-import==2.1.0
-    # via mkdocs
-h11==0.16.0
-    # via httpcore
-httpcore==1.0.9
-    # via httpx
-httpx==0.28.1
-    # via bump-my-version
-id==1.5.0
-    # via twine
-identify==2.6.12
-    # via pre-commit
+    # via
+    #   -r requirements-dev.in
+    #   mkdocs
+glom==22.1.0
+    # via -r requirements-dev.in
+googleapis-common-protos==1.70.0
+    # via -r requirements-dev.in
+greenlet==3.2.4
+    # via
+    #   -r requirements-dev.in
+    #   sqlalchemy
+hvac==2.3.0
+    # via -r requirements-dev.in
+identify==2.6.13
+    # via
+    #   -r requirements-dev.in
+    #   pre-commit
 idna==3.10
     # via
-    #   anyio
-    #   httpx
+    #   -r requirements-dev.in
+    #   jsonschema
     #   requests
 importlib-metadata==8.7.0
-    # via commitizen
+    # via
+    #   -r requirements-dev.in
+    #   commitizen
 iniconfig==2.1.0
-    # via pytest
+    # via
+    #   -r requirements-dev.in
+    #   pytest
+ipython==8.12.3
+    # via
+    #   -r requirements-dev.in
+    #   pipreqs
+isoduration==20.11.0
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
 isort==6.0.1
     # via
     #   -r requirements-dev.in
     #   pylint
-jaraco-classes==3.4.0
-    # via keyring
-jaraco-context==6.0.1
-    # via keyring
-jaraco-functools==4.2.1
-    # via keyring
+jedi==0.19.2
+    # via
+    #   -r requirements-dev.in
+    #   ipython
 jinja2==3.1.6
     # via
+    #   -r requirements-dev.in
     #   commitizen
     #   mkdocs
-    #   mkdocs-material
-    #   pytest-html
+    #   mkdocstrings
+    #   nbconvert
 jmespath==1.0.1
     # via
+    #   -r requirements-dev.in
     #   boto3
     #   botocore
-keyring==25.6.0
-    # via twine
-kiwisolver==1.4.8
-    # via matplotlib
-loguru==0.7.3
-    # via -r D:\git\stock-alt-options\requirements.in
-mando==0.7.1
-    # via radon
+jsonpointer==3.0.0
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
+jsonschema[format]==4.25.0
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-python-lib
+    #   nbformat
+jsonschema-specifications==2025.4.1
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
+jupyter-client==8.6.3
+    # via
+    #   -r requirements-dev.in
+    #   nbclient
+jupyter-core==5.8.1
+    # via
+    #   -r requirements-dev.in
+    #   jupyter-client
+    #   nbclient
+    #   nbconvert
+    #   nbformat
+jupyterlab-pygments==0.3.0
+    # via
+    #   -r requirements-dev.in
+    #   nbconvert
+license-expression==30.4.4
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-python-lib
+lxml==5.4.0
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-python-lib
+maison==2.0.0
+    # via
+    #   -r requirements-dev.in
+    #   yamlfix
 markdown==3.8.2
     # via
+    #   -r requirements-dev.in
     #   mkdocs
-    #   mkdocs-material
+    #   mkdocs-autorefs
+    #   mkdocstrings
     #   pymdown-extensions
 markdown-it-py==3.0.0
-    # via rich
+    # via
+    #   -r requirements-dev.in
+    #   rich
 markupsafe==3.0.2
     # via
+    #   -r requirements-dev.in
     #   jinja2
     #   mkdocs
-matplotlib==3.10.3
-    # via -r D:\git\stock-alt-options\requirements.in
+    #   mkdocs-autorefs
+    #   mkdocstrings
+    #   nbconvert
+matplotlib-inline==0.1.7
+    # via
+    #   -r requirements-dev.in
+    #   ipython
 mccabe==0.7.0
     # via
+    #   -r requirements-dev.in
     #   flake8
     #   pylint
 mdurl==0.1.2
-    # via markdown-it-py
+    # via
+    #   -r requirements-dev.in
+    #   markdown-it-py
 mergedeep==1.3.4
     # via
+    #   -r requirements-dev.in
     #   mkdocs
     #   mkdocs-get-deps
+mistune==3.1.3
+    # via
+    #   -r requirements-dev.in
+    #   nbconvert
 mkdocs==1.6.1
     # via
     #   -r requirements-dev.in
-    #   mkdocs-material
-mkdocs-get-deps==0.2.0
-    # via mkdocs
-mkdocs-material==9.6.16
-    # via -r requirements-dev.in
-mkdocs-material-extensions==1.3.1
-    # via mkdocs-material
-more-itertools==10.7.0
+    #   mkdocs-autorefs
+    #   mkdocstrings
+mkdocs-autorefs==1.4.2
     # via
-    #   jaraco-classes
-    #   jaraco-functools
-mypy==1.15.0
+    #   -r requirements-dev.in
+    #   mkdocstrings
+mkdocs-get-deps==0.2.0
+    # via
+    #   -r requirements-dev.in
+    #   mkdocs
+mkdocstrings==0.30.0
     # via -r requirements-dev.in
+msgpack==1.1.1
+    # via
+    #   -r requirements-dev.in
+    #   cachecontrol
 mypy-extensions==1.1.0
     # via
+    #   -r requirements-dev.in
     #   black
-    #   mypy
-nh3==0.3.0
-    # via readme-renderer
-nodeenv==1.9.1
-    # via pre-commit
-numpy==1.26.4
+nbclient==0.10.2
     # via
-    #   -r D:\git\stock-alt-options\requirements.in
-    #   contourpy
-    #   matplotlib
-    #   pandas
-    #   scipy
+    #   -r requirements-dev.in
+    #   nbconvert
+nbconvert==7.16.6
+    # via
+    #   -r requirements-dev.in
+    #   pipreqs
+nbformat==5.10.4
+    # via
+    #   -r requirements-dev.in
+    #   nbclient
+    #   nbconvert
+nodeenv==1.9.1
+    # via
+    #   -r requirements-dev.in
+    #   pre-commit
+    #   pyright
+numpy==2.3.2
+    # via -r requirements-dev.in
+packageurl-python==0.17.5
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-bom
+    #   cyclonedx-python-lib
 packaging==25.0
     # via
+    #   -r requirements-dev.in
     #   black
     #   build
     #   commitizen
-    #   matplotlib
+    #   cyclonedx-bom
+    #   deptry
     #   mkdocs
+    #   nbconvert
+    #   pip-audit
+    #   pip-requirements-parser
+    #   pipdeptree
     #   pytest
-    #   twine
-paginate==0.5.7
-    # via mkdocs-material
-pandas==2.2.3
-    # via -r D:\git\stock-alt-options\requirements.in
+    #   requirements-parser
+pandocfilters==1.5.1
+    # via
+    #   -r requirements-dev.in
+    #   nbconvert
+parso==0.8.4
+    # via
+    #   -r requirements-dev.in
+    #   jedi
 pathspec==0.12.1
     # via
+    #   -r requirements-dev.in
     #   black
     #   mkdocs
 pbr==6.1.1
-    # via stevedore
-pika==1.3.2
-    # via -r D:\git\stock-alt-options\requirements.in
-pillow==11.3.0
     # via
-    #   -r D:\git\stock-alt-options\requirements.in
     #   -r requirements-dev.in
-    #   matplotlib
+    #   stevedore
+peewee==3.18.2
+    # via -r requirements-dev.in
+pickleshare==0.7.5
+    # via
+    #   -r requirements-dev.in
+    #   ipython
+pika==1.3.2
+    # via -r requirements-dev.in
+pip-api==0.0.34
+    # via
+    #   -r requirements-dev.in
+    #   pip-audit
+pip-audit==2.9.0
+    # via -r requirements-dev.in
+pip-requirements-parser==32.0.1
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-bom
+    #   pip-audit
+pip-tools==7.5.0
+    # via -r requirements-dev.in
+pipdeptree==2.28.0
+    # via -r requirements-dev.in
+pipreqs==0.5.0
+    # via -r requirements-dev.in
 platformdirs==4.3.8
     # via
+    #   -r requirements-dev.in
     #   black
+    #   jupyter-core
     #   mkdocs-get-deps
+    #   pip-audit
     #   pylint
     #   virtualenv
 pluggy==1.6.0
-    # via pytest
-pre-commit==4.2.0
-    # via -r requirements-dev.in
-prometheus-client==0.22.1
-    # via -r D:\git\stock-alt-options\requirements.in
-prompt-toolkit==3.0.51
-    # via questionary
-py-cpuinfo==9.0.0
-    # via pytest-benchmark
-pycodestyle==2.13.0
-    # via flake8
-pydantic==2.11.7
-    # via
-    #   bump-my-version
-    #   pydantic-settings
-pydantic-core==2.33.2
-    # via pydantic
-pydantic-settings==2.10.1
-    # via bump-my-version
-pydocstyle==6.3.0
-    # via flake8-docstrings
-pyflakes==3.3.2
-    # via flake8
-pygments==2.19.2
-    # via
-    #   mkdocs-material
-    #   readme-renderer
-    #   rich
-pylint==3.3.6
-    # via -r requirements-dev.in
-pymdown-extensions==10.16
-    # via mkdocs-material
-pyparsing==3.2.3
-    # via matplotlib
-pyproject-hooks==1.2.0
-    # via build
-pytest==8.3.5
     # via
     #   -r requirements-dev.in
-    #   pytest-benchmark
+    #   pytest
     #   pytest-cov
-    #   pytest-html
-    #   pytest-metadata
-    #   pytest-mock
-pytest-benchmark==5.1.0
+pre-commit==4.3.0
     # via -r requirements-dev.in
-pytest-cov==6.1.1
+prettier==0.0.7
     # via -r requirements-dev.in
-pytest-html==4.1.1
+prometheus-client==0.22.1
     # via -r requirements-dev.in
-pytest-metadata==3.1.1
-    # via pytest-html
-pytest-mock==3.14.0
+prompt-toolkit==3.0.51
+    # via
+    #   -r requirements-dev.in
+    #   ipython
+    #   questionary
+protobuf==4.25.8
+    # via
+    #   -r requirements-dev.in
+    #   googleapis-common-protos
+pure-eval==0.2.3
+    # via
+    #   -r requirements-dev.in
+    #   stack-data
+py-serializable==2.1.0
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-python-lib
+pycodestyle==2.14.0
+    # via
+    #   -r requirements-dev.in
+    #   flake8
+pydantic==2.11.7
+    # via
+    #   -r requirements-dev.in
+    #   yamlfix
+pydantic-core==2.33.2
+    # via
+    #   -r requirements-dev.in
+    #   pydantic
+pyflakes==3.4.0
+    # via
+    #   -r requirements-dev.in
+    #   flake8
+pygments==2.19.2
+    # via
+    #   -r requirements-dev.in
+    #   ipython
+    #   nbconvert
+    #   pytest
+    #   rich
+pylint==3.3.8
+    # via -r requirements-dev.in
+pymdown-extensions==10.16.1
+    # via
+    #   -r requirements-dev.in
+    #   mkdocstrings
+pyparsing==3.2.3
+    # via
+    #   -r requirements-dev.in
+    #   pip-requirements-parser
+pyproject-hooks==1.2.0
+    # via
+    #   -r requirements-dev.in
+    #   build
+    #   pip-tools
+pyright==1.1.403
+    # via -r requirements-dev.in
+pytest==8.4.1
+    # via
+    #   -r requirements-dev.in
+    #   pytest-cov
+pytest-cov==6.2.1
     # via -r requirements-dev.in
 python-dateutil==2.9.0.post0
     # via
+    #   -r requirements-dev.in
+    #   arrow
     #   botocore
     #   ghp-import
-    #   matplotlib
-    #   pandas
-python-dotenv==1.1.1
+    #   jupyter-client
+python-json-logger==3.3.0
+    # via -r requirements-dev.in
+pywin32==311
     # via
-    #   -r D:\git\stock-alt-options\requirements.in
-    #   pydantic-settings
-pytz==2025.2
-    # via pandas
-pywin32-ctypes==0.2.3
-    # via keyring
+    #   -r requirements-dev.in
+    #   jupyter-core
 pyyaml==6.0.2
     # via
+    #   -r requirements-dev.in
     #   bandit
     #   commitizen
     #   mkdocs
@@ -300,109 +541,196 @@ pyyaml==6.0.2
     #   pre-commit
     #   pymdown-extensions
     #   pyyaml-env-tag
-    #   xenon
 pyyaml-env-tag==1.1
-    # via mkdocs
+    # via
+    #   -r requirements-dev.in
+    #   mkdocs
+pyzmq==27.0.1
+    # via
+    #   -r requirements-dev.in
+    #   jupyter-client
 questionary==2.1.0
     # via
-    #   bump-my-version
+    #   -r requirements-dev.in
     #   commitizen
-radon==6.0.1
-    # via xenon
-readme-renderer==44.0
-    # via twine
+referencing==0.36.2
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
+    #   jsonschema-specifications
 requests==2.32.4
     # via
-    #   -r D:\git\stock-alt-options\requirements.in
     #   -r requirements-dev.in
-    #   id
-    #   mkdocs-material
-    #   requests-toolbelt
-    #   twine
-    #   xenon
-requests-toolbelt==1.0.0
-    # via twine
-rfc3986==2.0.0
-    # via twine
-rich==14.1.0
+    #   cachecontrol
+    #   hvac
+    #   pip-audit
+    #   yarg
+requirements-parser==0.13.0
     # via
+    #   -r requirements-dev.in
+    #   deptry
+rfc3339-validator==0.1.4
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
+rfc3987==1.3.8
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
+rich==13.5.3
+    # via
+    #   -r requirements-dev.in
     #   bandit
-    #   bump-my-version
-    #   rich-click
-    #   twine
-rich-click==1.8.9
-    # via bump-my-version
-ruff==0.11.6
+    #   pip-audit
+rpds-py==0.27.0
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
+    #   referencing
+ruamel-yaml==0.18.14
     # via -r requirements-dev.in
+ruamel-yaml-clib==0.2.12
+    # via
+    #   -r requirements-dev.in
+    #   ruamel-yaml
+ruff==0.12.8
+    # via -r requirements-dev.in
+ruyaml==0.91.0
+    # via
+    #   -r requirements-dev.in
+    #   yamlfix
 s3transfer==0.13.1
-    # via boto3
-scipy==1.16.0
-    # via -r D:\git\stock-alt-options\requirements.in
+    # via
+    #   -r requirements-dev.in
+    #   boto3
 six==1.17.0
     # via
-    #   mando
+    #   -r requirements-dev.in
     #   python-dateutil
-sniffio==1.3.1
-    # via anyio
-snowballstemmer==3.0.1
-    # via pydocstyle
+    #   rfc3339-validator
+sortedcontainers==2.4.0
+    # via
+    #   -r requirements-dev.in
+    #   cyclonedx-python-lib
+soupsieve==2.7
+    # via
+    #   -r requirements-dev.in
+    #   beautifulsoup4
+sqlalchemy==2.0.42
+    # via -r requirements-dev.in
+stack-data==0.6.3
+    # via
+    #   -r requirements-dev.in
+    #   ipython
 stevedore==5.4.1
-    # via bandit
-tenacity==8.5.0
-    # via -r D:\git\stock-alt-options\requirements.in
-termcolor==2.3.0
+    # via
+    #   -r requirements-dev.in
+    #   bandit
+tenacity==9.1.2
+    # via -r requirements-dev.in
+termcolor==3.1.0
     # via
     #   -r requirements-dev.in
     #   commitizen
+tinycss2==1.4.0
+    # via
+    #   -r requirements-dev.in
+    #   bleach
+toml==0.10.2
+    # via
+    #   -r requirements-dev.in
+    #   maison
+    #   pip-audit
+tomli==2.0.2
+    # via -r requirements-dev.in
 tomlkit==0.13.3
     # via
-    #   bump-my-version
+    #   -r requirements-dev.in
     #   commitizen
     #   pylint
-twine==6.1.0
-    # via -r requirements-dev.in
-types-python-dateutil==2.9.0.20241206
-    # via -r requirements-dev.in
-types-pyyaml==6.0.12.20250402
-    # via -r requirements-dev.in
-types-requests==2.32.0.20250328
-    # via -r requirements-dev.in
+tornado==6.5.2
+    # via
+    #   -r requirements-dev.in
+    #   jupyter-client
+traitlets==5.14.3
+    # via
+    #   -r requirements-dev.in
+    #   ipython
+    #   jupyter-client
+    #   jupyter-core
+    #   matplotlib-inline
+    #   nbclient
+    #   nbconvert
+    #   nbformat
+types-python-dateutil==2.9.0.20250809
+    # via
+    #   -r requirements-dev.in
+    #   arrow
 typing-extensions==4.14.1
     # via
-    #   anyio
-    #   mypy
+    #   -r requirements-dev.in
+    #   beautifulsoup4
     #   pydantic
     #   pydantic-core
-    #   rich-click
+    #   pyright
+    #   referencing
+    #   sqlalchemy
     #   typing-inspection
 typing-inspection==0.4.1
     # via
+    #   -r requirements-dev.in
     #   pydantic
-    #   pydantic-settings
-tzdata==2025.2
-    # via pandas
+uri-template==1.3.0
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
 urllib3==2.5.0
     # via
-    #   -r D:\git\stock-alt-options\requirements.in
     #   -r requirements-dev.in
     #   botocore
     #   requests
-    #   twine
-    #   types-requests
-virtualenv==20.32.0
-    # via pre-commit
+virtualenv==20.33.1
+    # via
+    #   -r requirements-dev.in
+    #   pre-commit
 watchdog==6.0.0
-    # via mkdocs
-wcmatch==10.1
-    # via bump-my-version
-wcwidth==0.2.13
-    # via prompt-toolkit
-win32-setctime==1.2.0
-    # via loguru
-xenon==0.9.3
+    # via
+    #   -r requirements-dev.in
+    #   mkdocs
+wcmatch==8.5.2
     # via -r requirements-dev.in
+wcwidth==0.2.13
+    # via
+    #   -r requirements-dev.in
+    #   prompt-toolkit
+webcolors==24.11.1
+    # via
+    #   -r requirements-dev.in
+    #   jsonschema
+webencodings==0.5.1
+    # via
+    #   -r requirements-dev.in
+    #   bleach
+    #   tinycss2
+wheel==0.45.1
+    # via
+    #   -r requirements-dev.in
+    #   pip-tools
+wrapt==1.17.2
+    # via
+    #   -r requirements-dev.in
+    #   deprecated
+yamlfix==1.17.0
+    # via -r requirements-dev.in
+yarg==0.1.9
+    # via
+    #   -r requirements-dev.in
+    #   pipreqs
 zipp==3.23.0
-    # via importlib-metadata
+    # via
+    #   -r requirements-dev.in
+    #   importlib-metadata
 
 # The following packages are considered to be unsafe in a requirements file:
+# pip
 # setuptools
