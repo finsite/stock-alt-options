@@ -4,9 +4,9 @@
 #
 #    pip-compile requirements.in
 #
-boto3==1.40.6
+boto3==1.40.16
     # via -r requirements.in
-botocore==1.40.6
+botocore==1.40.16
     # via
     #   -r requirements.in
     #   boto3
@@ -33,7 +33,7 @@ python-dateutil==2.9.0.post0
     # via botocore
 python-json-logger==3.3.0
     # via -r requirements.in
-requests==2.32.4
+requests==2.32.5
     # via
     #   -r requirements.in
     #   hvac
@@ -41,7 +41,7 @@ s3transfer==0.13.1
     # via boto3
 six==1.17.0
     # via python-dateutil
-sqlalchemy==2.0.42
+sqlalchemy==2.0.43
     # via -r requirements.in
 tenacity==9.1.2
     # via -r requirements.in
