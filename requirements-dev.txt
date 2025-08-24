@@ -36,7 +36,7 @@ backcall==0.2.0
     #   ipython
 bandit==1.8.6
     # via -r requirements-dev.in
-beautifulsoup4==4.13.4
+beautifulsoup4==4.13.5
     # via
     #   -r requirements-dev.in
     #   nbconvert
@@ -55,9 +55,9 @@ boolean-py==5.0
     # via
     #   -r requirements-dev.in
     #   license-expression
-boto3==1.40.6
+boto3==1.40.16
     # via -r requirements-dev.in
-botocore==1.40.6
+botocore==1.40.16
     # via
     #   -r requirements-dev.in
     #   boto3
@@ -91,7 +91,7 @@ charset-normalizer==3.4.3
     #   -r requirements-dev.in
     #   commitizen
     #   requests
-click==8.1.8
+click==8.2.1
     # via
     #   -r requirements-dev.in
     #   black
@@ -117,7 +117,7 @@ colorama==0.4.6
     #   pytest
 commitizen==4.8.3
     # via -r requirements-dev.in
-coverage[toml]==7.10.2
+coverage[toml]==7.10.5
     # via
     #   -r requirements-dev.in
     #   pytest-cov
@@ -165,7 +165,7 @@ docopt==0.6.2
     # via
     #   -r requirements-dev.in
     #   pipreqs
-exceptiongroup==1.2.2
+exceptiongroup==1.3.0
     # via -r requirements-dev.in
 executing==2.2.0
     # via
@@ -175,11 +175,11 @@ face==24.0.0
     # via
     #   -r requirements-dev.in
     #   glom
-fastjsonschema==2.21.1
+fastjsonschema==2.21.2
     # via
     #   -r requirements-dev.in
     #   nbformat
-filelock==3.18.0
+filelock==3.19.1
     # via
     #   -r requirements-dev.in
     #   cachecontrol
@@ -221,7 +221,7 @@ iniconfig==2.1.0
     # via
     #   -r requirements-dev.in
     #   pytest
-ipython==8.12.3
+ipython==8.37.0
     # via
     #   -r requirements-dev.in
     #   pipreqs
@@ -253,7 +253,7 @@ jsonpointer==3.0.0
     # via
     #   -r requirements-dev.in
     #   jsonschema
-jsonschema[format]==4.25.0
+jsonschema[format]==4.25.1
     # via
     #   -r requirements-dev.in
     #   cyclonedx-python-lib
@@ -397,7 +397,7 @@ pandocfilters==1.5.1
     # via
     #   -r requirements-dev.in
     #   nbconvert
-parso==0.8.4
+parso==0.8.5
     # via
     #   -r requirements-dev.in
     #   jedi
@@ -480,7 +480,7 @@ pydantic==2.11.7
     # via
     #   -r requirements-dev.in
     #   yamlfix
-pydantic-core==2.33.2
+pydantic-core==2.39.0
     # via
     #   -r requirements-dev.in
     #   pydantic
@@ -510,7 +510,7 @@ pyproject-hooks==1.2.0
     #   -r requirements-dev.in
     #   build
     #   pip-tools
-pyright==1.1.403
+pyright==1.1.404
     # via -r requirements-dev.in
 pytest==8.4.1
     # via
@@ -545,7 +545,7 @@ pyyaml-env-tag==1.1
     # via
     #   -r requirements-dev.in
     #   mkdocs
-pyzmq==27.0.1
+pyzmq==27.0.2
     # via
     #   -r requirements-dev.in
     #   jupyter-client
@@ -558,7 +558,7 @@ referencing==0.36.2
     #   -r requirements-dev.in
     #   jsonschema
     #   jsonschema-specifications
-requests==2.32.4
+requests==2.32.5
     # via
     #   -r requirements-dev.in
     #   cachecontrol
@@ -577,7 +577,7 @@ rfc3987==1.3.8
     # via
     #   -r requirements-dev.in
     #   jsonschema
-rich==13.5.3
+rich==13.9.4
     # via
     #   -r requirements-dev.in
     #   bandit
@@ -587,13 +587,13 @@ rpds-py==0.27.0
     #   -r requirements-dev.in
     #   jsonschema
     #   referencing
-ruamel-yaml==0.18.14
+ruamel-yaml==0.18.15
     # via -r requirements-dev.in
 ruamel-yaml-clib==0.2.12
     # via
     #   -r requirements-dev.in
     #   ruamel-yaml
-ruff==0.12.8
+ruff==0.12.10
     # via -r requirements-dev.in
 ruyaml==0.91.0
     # via
@@ -616,7 +616,7 @@ soupsieve==2.7
     # via
     #   -r requirements-dev.in
     #   beautifulsoup4
-sqlalchemy==2.0.42
+sqlalchemy==2.0.43
     # via -r requirements-dev.in
 stack-data==0.6.3
     # via
@@ -641,7 +641,7 @@ toml==0.10.2
     #   -r requirements-dev.in
     #   maison
     #   pip-audit
-tomli==2.0.2
+tomli==2.2.1
     # via -r requirements-dev.in
 tomlkit==0.13.3
     # via
@@ -662,7 +662,7 @@ traitlets==5.14.3
     #   nbclient
     #   nbconvert
     #   nbformat
-types-python-dateutil==2.9.0.20250809
+types-python-dateutil==2.9.0.20250822
     # via
     #   -r requirements-dev.in
     #   arrow
@@ -689,7 +689,7 @@ urllib3==2.5.0
     #   -r requirements-dev.in
     #   botocore
     #   requests
-virtualenv==20.33.1
+virtualenv==20.34.0
     # via
     #   -r requirements-dev.in
     #   pre-commit
@@ -716,13 +716,13 @@ wheel==0.45.1
     # via
     #   -r requirements-dev.in
     #   pip-tools
-wrapt==1.17.2
+wrapt==1.17.3
     # via
     #   -r requirements-dev.in
     #   deprecated
 yamlfix==1.17.0
     # via -r requirements-dev.in
-yarg==0.1.9
+yarg==0.1.10
     # via
     #   -r requirements-dev.in
     #   pipreqs
