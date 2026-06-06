@@ -16,7 +16,7 @@ arrow==1.3.0
     # via
     #   -r requirements-dev.in
     #   isoduration
-astroid==3.3.11
+astroid==4.1.2
     # via
     #   -r requirements-dev.in
     #   pylint
@@ -24,7 +24,7 @@ asttokens==3.0.0
     # via
     #   -r requirements-dev.in
     #   stack-data
-attrs==25.3.0
+attrs==26.1.0
     # via
     #   -r requirements-dev.in
     #   glom
@@ -40,13 +40,13 @@ beautifulsoup4==4.13.4
     # via
     #   -r requirements-dev.in
     #   nbconvert
-black==25.1.0
+black==26.5.1
     # via -r requirements-dev.in
 bleach[css]==6.2.0
     # via
     #   -r requirements-dev.in
     #   nbconvert
-boltons==21.0.0
+boltons==25.0.0
     # via
     #   -r requirements-dev.in
     #   face
@@ -74,7 +74,7 @@ cachecontrol[filecache]==0.14.3
     # via
     #   -r requirements-dev.in
     #   pip-audit
-certifi==2025.8.3
+certifi==2026.5.20
     # via
     #   -r requirements-dev.in
     #   requests
@@ -82,7 +82,7 @@ cfgv==3.4.0
     # via
     #   -r requirements-dev.in
     #   pre-commit
-chardet==5.2.0
+chardet==7.4.3
     # via
     #   -r requirements-dev.in
     #   cyclonedx-bom
@@ -127,7 +127,7 @@ cyclonedx-bom==7.0.0
     #   cyclonedx-py
 cyclonedx-py==1.0.1
     # via -r requirements-dev.in
-cyclonedx-python-lib[validation]==9.1.0
+cyclonedx-python-lib[validation]==11.8.0
     # via
     #   -r requirements-dev.in
     #   cyclonedx-bom
@@ -171,7 +171,7 @@ executing==2.2.0
     # via
     #   -r requirements-dev.in
     #   stack-data
-face==24.0.0
+face==26.0.0
     # via
     #   -r requirements-dev.in
     #   glom
@@ -194,7 +194,7 @@ ghp-import==2.1.0
     # via
     #   -r requirements-dev.in
     #   mkdocs
-glom==22.1.0
+glom==25.12.0
     # via -r requirements-dev.in
 googleapis-common-protos==1.70.0
     # via -r requirements-dev.in
@@ -213,7 +213,7 @@ idna==3.10
     #   -r requirements-dev.in
     #   jsonschema
     #   requests
-importlib-metadata==8.7.0
+importlib-metadata==9.0.0
     # via
     #   -r requirements-dev.in
     #   commitizen
@@ -221,7 +221,7 @@ iniconfig==2.1.0
     # via
     #   -r requirements-dev.in
     #   pytest
-ipython==8.12.3
+ipython==9.14.1
     # via
     #   -r requirements-dev.in
     #   pipreqs
@@ -229,7 +229,7 @@ isoduration==20.11.0
     # via
     #   -r requirements-dev.in
     #   jsonschema
-isort==6.0.1
+isort==8.0.1
     # via
     #   -r requirements-dev.in
     #   pylint
@@ -281,7 +281,7 @@ license-expression==30.4.4
     # via
     #   -r requirements-dev.in
     #   cyclonedx-python-lib
-lxml==5.4.0
+lxml==6.1.1
     # via
     #   -r requirements-dev.in
     #   cyclonedx-python-lib
@@ -296,7 +296,7 @@ markdown==3.8.2
     #   mkdocs-autorefs
     #   mkdocstrings
     #   pymdown-extensions
-markdown-it-py==3.0.0
+markdown-it-py==4.2.0
     # via
     #   -r requirements-dev.in
     #   rich
@@ -343,7 +343,7 @@ mkdocs-get-deps==0.2.0
     # via
     #   -r requirements-dev.in
     #   mkdocs
-mkdocstrings==0.30.0
+mkdocstrings==1.0.4
     # via -r requirements-dev.in
 msgpack==1.1.1
     # via
@@ -378,7 +378,7 @@ packageurl-python==0.17.5
     #   -r requirements-dev.in
     #   cyclonedx-bom
     #   cyclonedx-python-lib
-packaging==25.0
+packaging==26.2
     # via
     #   -r requirements-dev.in
     #   black
@@ -401,16 +401,16 @@ parso==0.8.4
     # via
     #   -r requirements-dev.in
     #   jedi
-pathspec==0.12.1
+pathspec==1.1.1
     # via
     #   -r requirements-dev.in
     #   black
     #   mkdocs
-pbr==6.1.1
+pbr==7.0.3
     # via
     #   -r requirements-dev.in
     #   stevedore
-peewee==3.18.2
+peewee==4.0.6
     # via -r requirements-dev.in
 pickleshare==0.7.5
     # via
@@ -431,7 +431,7 @@ pip-requirements-parser==32.0.1
     #   pip-audit
 pip-tools==7.5.0
     # via -r requirements-dev.in
-pipdeptree==2.28.0
+pipdeptree==3.1.0
     # via -r requirements-dev.in
 pipreqs==0.5.0
     # via -r requirements-dev.in
@@ -460,7 +460,7 @@ prompt-toolkit==3.0.51
     #   -r requirements-dev.in
     #   ipython
     #   questionary
-protobuf==4.25.8
+protobuf==7.35.0
     # via
     #   -r requirements-dev.in
     #   googleapis-common-protos
@@ -495,7 +495,7 @@ pygments==2.19.2
     #   nbconvert
     #   pytest
     #   rich
-pylint==3.3.8
+pylint==4.0.5
     # via -r requirements-dev.in
 pymdown-extensions==10.16.1
     # via
@@ -512,11 +512,11 @@ pyproject-hooks==1.2.0
     #   pip-tools
 pyright==1.1.403
     # via -r requirements-dev.in
-pytest==8.4.1
+pytest==9.0.3
     # via
     #   -r requirements-dev.in
     #   pytest-cov
-pytest-cov==6.2.1
+pytest-cov==7.1.0
     # via -r requirements-dev.in
 python-dateutil==2.9.0.post0
     # via
@@ -525,9 +525,9 @@ python-dateutil==2.9.0.post0
     #   botocore
     #   ghp-import
     #   jupyter-client
-python-json-logger==3.3.0
+python-json-logger==4.1.0
     # via -r requirements-dev.in
-pywin32==311
+pywin32==312
     # via
     #   -r requirements-dev.in
     #   jupyter-core
@@ -577,7 +577,7 @@ rfc3987==1.3.8
     # via
     #   -r requirements-dev.in
     #   jsonschema
-rich==13.5.3
+rich==15.0.0
     # via
     #   -r requirements-dev.in
     #   bandit
@@ -689,7 +689,7 @@ urllib3==2.5.0
     #   -r requirements-dev.in
     #   botocore
     #   requests
-virtualenv==20.33.1
+virtualenv==21.4.2
     # via
     #   -r requirements-dev.in
     #   pre-commit
@@ -697,13 +697,13 @@ watchdog==6.0.0
     # via
     #   -r requirements-dev.in
     #   mkdocs
-wcmatch==8.5.2
+wcmatch==10.1
     # via -r requirements-dev.in
 wcwidth==0.2.13
     # via
     #   -r requirements-dev.in
     #   prompt-toolkit
-webcolors==24.11.1
+webcolors==25.10.0
     # via
     #   -r requirements-dev.in
     #   jsonschema
@@ -716,7 +716,7 @@ wheel==0.45.1
     # via
     #   -r requirements-dev.in
     #   pip-tools
-wrapt==1.17.2
+wrapt==2.2.1
     # via
     #   -r requirements-dev.in
     #   deprecated
@@ -726,7 +726,7 @@ yarg==0.1.9
     # via
     #   -r requirements-dev.in
     #   pipreqs
-zipp==3.23.0
+zipp==4.1.0
     # via
     #   -r requirements-dev.in
     #   importlib-metadata
